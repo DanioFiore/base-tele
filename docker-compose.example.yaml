@@ -1,0 +1,10 @@
+services:
+  telegram-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    environment:
+      - TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+    restart: unless-stopped

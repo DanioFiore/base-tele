@@ -1,0 +1,20 @@
+pyTelegramBotAPI
+openai
+
+# Debugging
+python-dotenv
+ipython
+ptvsd
+
+#HTTP and API
+requests
+httpx
+
+# Database e validazione
+sqlite-utils
+sqlalchemy
+pydantic
+
+# Utilities
+rich
+typer
